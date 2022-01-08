@@ -26,6 +26,8 @@ tar -xzf file.tar.gz
 
 cd scalper
 
+wget https://github.com/ZhendongTian/scalper_pkgs/raw/main/launch.sh
+
 conda init
 
 exec bash
