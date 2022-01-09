@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo su -
-
 sudo apt-get update
 
 wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
