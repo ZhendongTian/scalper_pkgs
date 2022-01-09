@@ -8,7 +8,11 @@ bash /tmp/Anaconda3-2020.02-Linux-x86_64.sh -b
 
 export PATH=/home/ubuntu/anaconda3/bin:$PATH
 
+conda init
+
 sudo mkdir /home/ubuntu/scalper
+
+sudo chmod 777 scalper
 
 cd /home/ubuntu/scalper
 
@@ -28,8 +32,6 @@ cd scalper
 
 wget https://github.com/ZhendongTian/scalper_pkgs/raw/main/launch.sh
 
-
-conda init
 
 exec bash
 
