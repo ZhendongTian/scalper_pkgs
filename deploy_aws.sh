@@ -6,11 +6,11 @@ wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 
 bash /tmp/Anaconda3-2020.02-Linux-x86_64.sh -b
 
-export PATH=root/anaconda3/bin:$PATH
+export PATH=/home/ubuntu/anaconda3/bin:$PATH
 
-sudo mkdir /root/scalper
+sudo mkdir /home/ubuntu/scalper
 
-cd /root/scalper
+cd /home/ubuntu/scalper
 
 wget https://github.com/ZhendongTian/scalper_pkgs/raw/main/kernel.deb
 
@@ -27,6 +27,7 @@ tar -xzf file.tar.gz
 cd scalper
 
 wget https://github.com/ZhendongTian/scalper_pkgs/raw/main/launch.sh
+
 
 conda init
 
