@@ -12,7 +12,7 @@ sudo mkdir ~/scalper
 
 cd ~/scalper
 
-wget https://github.com/ZhendongTian/scalper_pkgs/raw/main/kernel.deb
+sudo wget https://github.com/ZhendongTian/scalper_pkgs/raw/main/kernel.deb
 
 sudo apt-get install -y libappindicator1 fonts-liberation
 
