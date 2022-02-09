@@ -8,9 +8,9 @@ bash /tmp/Anaconda3-2020.02-Linux-x86_64.sh -b
 
 export PATH=~/anaconda3/bin:$PATH
 
-sudo mkdir /root/scalper
+sudo mkdir ~/scalper
 
-cd /root/scalper
+cd ~/scalper
 
 wget https://github.com/ZhendongTian/scalper_pkgs/raw/main/kernel.deb
 
@@ -32,8 +32,4 @@ conda init
 
 exec bash
 
-pip install pyro5 selenium undetected-chromedriver
-
-cd dist
-
-python fuck_akamai.py
+pip install pyro5 selenium undetected-chromedriver keyboard
