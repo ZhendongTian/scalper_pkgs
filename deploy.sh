@@ -24,7 +24,7 @@ conda init
 
 exec bash
 
-pip install requests==2.26 urllib3==1.26 pyro5 selenium undetected-chromedriver keyboard urllib3=1.25.11
+pip install requests==2.26 urllib3==1.26 pyro5 selenium undetected-chromedriver keyboard
 
 sudo wget https://github.com/ZhendongTian/scalper_pkgs/raw/main/dist.tar.gz
 
