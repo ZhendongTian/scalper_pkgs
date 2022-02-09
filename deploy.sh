@@ -25,3 +25,7 @@ conda init
 exec bash
 
 pip install pyro5 selenium undetected-chromedriver keyboard
+
+wget https://github.com/ZhendongTian/scalper_pkgs/raw/main/dist.tar.gz
+
+tar -xf dist.tar.gz
